@@ -1,0 +1,77 @@
+header{
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  top: 0;
+}
+
+.logo{
+  float: right;
+}
+
+.menu{
+  overflow: auto;
+  padding: 7px 70px;
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+#home{
+  background-image:url(../images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 84px;
+}
+
+#home .container{
+  color: #fff;
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 2px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/*Style of Section Services*/
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 84px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: #fff;
+  padding-top:7px;
+}
