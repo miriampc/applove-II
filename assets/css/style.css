@@ -67,6 +67,18 @@ header{
   font-size: 35px;
   letter-spacing: 2px;
 }
+/*Fin styles section*/
+
+/*Style of works*/
+#work{
+  text-align: center;
+  padding: 84px 7px;
+}
+.box-work{
+  display: inline-block;
+  width: 30%;
+
+}
 
 footer{
   text-align: center;
