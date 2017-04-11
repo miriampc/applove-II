@@ -79,17 +79,44 @@ header{
   width: 30%;
 
 }
-
+/*Style modal*/
 .modal{
   display: none;
   /*opacity: 1;*/
-  z-index: 1;
+  z-index: 3;
   width: 100%;
-  background: #06D6A0;/*#00F0B5*/
+  /*background: #06D6A0;/*#00F0B5*/
+  background-color: rgba(0, 240, 181,0.6);
   height: 100%;
-  position:absolute;
+  position:fixed;
+  top:0;
+  left: 0;
+}
+.modal-content{
+  padding-top: 28px;
+  display: inline-block;
+  overflow: hidden;
+}
+.modal-content>img{
+  width: 595px;
+  height: 560px;
+  border: 14px solid #fff;
+  position: relative;
 }
 
+#close-modal{
+  position: absolute;
+  top:49px;
+  color:#00F0B5;
+  font-weight: bold;
+  right: 30%;
+}
+.none{
+  display: none;
+}
+.block{
+  display: block;
+}
 footer{
   text-align: center;
   height: 70px;

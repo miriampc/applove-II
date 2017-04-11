@@ -73,7 +73,7 @@ a:hover {
   text-transform: uppercase;
 }
 
-div[class|="box"]>img{
+div[class|="box"]>figure>img{
   margin-top: 10px;
   width: 200px;
 }
