@@ -2,7 +2,8 @@ window.addEventListener('load', function(){
   var container=document.getElementById('container');
   var docFragment=document.createDocumentFragment();
 
-  allImages.forEach(function(e,id){
+
+  figures.allFigures.forEach(function(e,id){
     var divBox=document.createElement('div');
     var figure=document.createElement('figure');
     var image=document.createElement('img');
@@ -11,21 +12,21 @@ window.addEventListener('load', function(){
 
     divBox.setAttribute("class",'box-work');
     figure.setAttribute("class","figure");
+    image.setAttribute("alt",e.alt);
     image.src="assets/images/img-"+(id+1)+".jpg";
     caption.setAttribute("class",'name-coder');
     h5Name.setAttribute("class",'mb-0');
 
     figure.appendChild(image);
-    h5Name.appendChild(document.createTextNode(e));
+    h5Name.appendChild(document.createTextNode(e.project));
     caption.appendChild(h5Name);
     figure.appendChild(caption);
     divBox.appendChild(figure);
-    divBox.appendChild(h5Name);
     docFragment.appendChild(divBox);
     container.appendChild(docFragment);
 
     //eventos onclick
-    figure.onclick=function(e){
+    image.onclick=function(e){
       //crea modal invocando a funcion
       divBox.appendChild(creaModal(image.src));
 

@@ -75,6 +75,7 @@ header{
 #work{
   text-align: center;
   padding: 84px 7px;
+  background: #FFEEE2
 }
 
 .box-work{
@@ -82,6 +83,10 @@ header{
   width: 30%;
 }
 
+.figure>img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
 /*Style modal*/
 .modal{
   display: none;
@@ -116,6 +121,7 @@ header{
 #close-modal:hover{
   transform: scale(1.1);
   color:#000;
+  cursor: pointer;
 }
 .open{
   display: block;
