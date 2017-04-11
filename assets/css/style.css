@@ -13,11 +13,13 @@ header{
   overflow: auto;
   padding: 7px 70px;
 }
+
 .link{
   font-weight: 700;
   padding: 21px;
   display: inline-block;
 }
+
 #home{
   background-image:url(../images/bg-home.jpg);
   background-position: center;
@@ -67,27 +69,26 @@ header{
   font-size: 35px;
   letter-spacing: 2px;
 }
-/*Fin styles section*/
+/*End styles section*/
 
 /*Style of works*/
 #work{
   text-align: center;
   padding: 84px 7px;
 }
+
 .box-work{
   display: inline-block;
   width: 30%;
-
 }
+
 /*Style modal*/
 .modal{
   display: none;
-  /*opacity: 1;*/
   z-index: 3;
   width: 100%;
-  /*background: #06D6A0;/*#00F0B5*/
-  background-color: rgba(0, 240, 181,0.6);
   height: 100%;
+  background-color: rgba(0, 240, 181,0.6);
   position:fixed;
   top:0;
   left: 0;
@@ -110,13 +111,17 @@ header{
   color:#00F0B5;
   font-weight: bold;
   right: 30%;
+  font-size: 21px;
 }
-.none{
-  display: none;
+#close-modal:hover{
+  transform: scale(1.1);
+  color:#000;
 }
-.block{
+.open{
   display: block;
 }
+/*End style modal*/
+
 footer{
   text-align: center;
   height: 70px;
