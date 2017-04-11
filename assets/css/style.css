@@ -80,6 +80,16 @@ header{
 
 }
 
+.modal{
+  display: none;
+  /*opacity: 1;*/
+  z-index: 1;
+  width: 100%;
+  background: #06D6A0;/*#00F0B5*/
+  height: 100%;
+  position:absolute;
+}
+
 footer{
   text-align: center;
   height: 70px;
