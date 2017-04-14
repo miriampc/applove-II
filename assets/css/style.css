@@ -5,6 +5,14 @@ header{
   top: 0;
 }
 
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: #fff;
+  padding-top:7px;
+}
+
 .logo{
   float: right;
 }
@@ -127,11 +135,3 @@ header{
   display: block;
 }
 /*End style modal*/
-
-footer{
-  text-align: center;
-  height: 70px;
-  background: #373b47;
-  color: #fff;
-  padding-top:7px;
-}
